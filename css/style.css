@@ -129,6 +129,7 @@ header{
 	object-fit: cover;
 	width: 100%;
 	display: block;
+	margin-top: 2rem;
 }
 
 /*===================================Categories CSS Start==========================================*/
@@ -291,6 +292,12 @@ header{
 	background: transparent;
 	color: white;
 	border-color: white;
+}
+
+.course__image img{
+	object-fit: cover;
+	width: 100%;
+	display: block;
 }
 
 /*===================================Frequently Asked Question CSS Start==========================================*/
@@ -580,6 +587,10 @@ footer{
 	}
 	.header__left p{
 		margin-bottom: 1.4rem;
+	}
+	header{
+		height: 90vh;
+		margin-bottom: 4rem;
 	}
 	.categories__right{
 		grid-template-columns: 1fr 1fr;
